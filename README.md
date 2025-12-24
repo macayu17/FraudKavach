@@ -218,9 +218,8 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
-- Portfolio: [yourportfolio.com](https://yourportfolio.com)
+- LinkedIn: [anayush14]([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/anayush14/))
+- Portfolio: [](https://ayushworks-ashen.vercel.app/)
 
 ---
 
