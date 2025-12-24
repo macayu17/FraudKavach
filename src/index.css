@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply font-sans antialiased text-gray-900 bg-gray-50 dark:bg-[#020617];
+    }
+}
+
+@keyframes shine {
+    0% {
+        transform: translateX(-150%) skewX(-12deg);
+    }
+
+    100% {
+        transform: translateX(150%) skewX(-12deg);
+    }
+}
+
+.animate-shine {
+    animation: shine 1.5s infinite;
+}
+
+@layer utilities {
+    .glass {
+        @apply bg-white/10 backdrop-blur-md border border-white/20;
+    }
+}
+
+/* Mesh Gradient Background */
+.mesh-bg {
+    background-color: #0f172a;
+    background-image:
+        radial-gradient(at 0% 0%, hsla(253, 16%, 7%, 1) 0, transparent 50%),
+        radial-gradient(at 50% 0%, hsla(225, 39%, 30%, 1) 0, transparent 50%),
+        radial-gradient(at 100% 0%, hsla(339, 49%, 30%, 1) 0, transparent 50%);
+    background-attachment: fixed;
+}
+
+/* Dark Mode Overrides for Premium Feel */
+.dark body {
+    background-image:
+        radial-gradient(at 0% 0%, ps-blue-900 0, transparent 50%),
+        radial-gradient(at 100% 100%, #17172b 0, transparent 50%);
+    background-attachment: fixed;
+}
+
+@layer components {
+    .btn-primary {
+        @apply px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 outline-none;
+    }
+
+    .btn-secondary {
+        @apply px-4 py-2 bg-white text-gray-700 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors focus:ring-2 focus:ring-gray-200 focus:ring-offset-2 outline-none;
+    }
+
+    .input-field {
+        @apply w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-all;
+    }
+
+    .card {
+        @apply bg-white p-6 rounded-xl shadow-sm border border-gray-100;
+    }
+}
+
+@layer utilities {
+    .preserve-3d {
+        transform-style: preserve-3d;
+    }
+
+    .backface-hidden {
+        backface-visibility: hidden;
+    }
+
+    .rotate-y-180 {
+        transform: rotateY(180deg);
+    }
+
+    .perspective-1000 {
+        perspective: 1000px;
+    }
+}
