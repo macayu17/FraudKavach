@@ -223,7 +223,3 @@ Portfolio: https://ayushworks-ashen.vercel.app/
 
 
 ---
-
-<p align="center">
-  Made with ❤️ using React + Node.js
-</p>
