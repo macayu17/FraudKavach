@@ -217,9 +217,10 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## 👨‍💻 Author
 
-**Your Name**
-- LinkedIn: [anayush14]([https://www.linkedin.com/in/anayush14/])
-- Portfolio: [ayushworks-ashen.vercel.app]([https://ayushworks-ashen.vercel.app/])
+**Ayush Kumar** 
+LinkedIn: https://www.linkedin.com/in/anayush14/  
+Portfolio: https://ayushworks-ashen.vercel.app/
+
 
 ---
 
